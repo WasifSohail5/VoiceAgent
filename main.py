@@ -6,7 +6,7 @@ Main entry point - Database, Models, Auth, App initialization
 import os
 import uuid
 from datetime import datetime, timedelta
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
@@ -20,7 +20,7 @@ from pydantic import BaseModel, EmailStr
 from typing import Optional
 
 # Load environment
-#load_dotenv()
+load_dotenv()
 
 # ===========================================
 # CONFIGURATION
