@@ -1,5 +1,6 @@
 {
   "build": {
-    "python": "3.11"
+    "builder": "python",
+    "python_version": "3.11"
   }
 }
