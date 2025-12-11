@@ -3,5 +3,5 @@
     "builder": "python",
     "python_version": "3.11"
   },
-  "start": "uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
+  "start": "uvicorn backend.backend.main:app --host 0.0.0.0 --port $PORT"
 }
